@@ -1,0 +1,22 @@
+.navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+    color: #007bff;
+    text-decoration: none; /* Remove o sublinhado padrão */
+    cursor: pointer; /* Muda o cursor para a mão */
+}
+
+.nav-link:hover {
+    color: #0056b3; /* Muda a cor ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
